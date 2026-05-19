@@ -1,0 +1,68 @@
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+*.user
+*.iml
+.project
+.classpath
+.settings/
+
+
+# ─── Secrets / Env ────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# ─── Local Settings ───────────────────────────────────────────────────────────
+.claude/settings.local.json
+*.local.json
+*.local.ts
+*.local.js
+
+# ─── AI Agent — Private context (credentials, client info, internal process) ──
+# DB credentials & AWS access (contains real passwords/keys)
+.claude/workflows/db-connect-dev.md
+.claude/workflows/db-connect-staging.md
+# Client & business sensitive info
+.claude/context/specification.md
+.claude/context/technical.md
+# Internal process (not needed publicly)
+.claude/context/backlog-workflow.md
+.claude/context/ai-workflow.md
+
+# ─── AI Memories (aggregated sensitive context) ───────────────────────────────
+ai-memories/
+
+# ─── Management (internal schedules, resources, specs) ───────────────────────
+management/
+
+# ─── Repos (managed separately) ───────────────────────────────────────────────
+es-kitchen-api/
+es-kitchen-payment-app/
+es-kitchen-web-admin/
+es-kitchen-web-company/
+es-kitchen-web-supplier/
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
