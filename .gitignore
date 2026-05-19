@@ -50,6 +50,7 @@ secrets/
 
 # ─── AI Memories (aggregated sensitive context) ───────────────────────────────
 ai-memories/
+ai-template/
 
 # ─── Management (internal schedules, resources, specs) ───────────────────────
 management/
