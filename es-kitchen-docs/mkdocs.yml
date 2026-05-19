@@ -1,0 +1,91 @@
+site_name: ESKITCHEN Documentation
+theme:
+  name: material
+  palette:
+    primary: deep orange
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+- Home: index.md
+
+- Backend:
+  - Es Kitchen API:
+    - Overview:
+      - Structure: backend/es-kitchen-api/overview/structure.md
+      - ERD: backend/es-kitchen-api/overview/erd.md
+      - API Catalog: backend/es-kitchen-api/overview/api-catalog.md
+      - Patterns: backend/es-kitchen-api/overview/patterns.md
+
+- Frontend:
+  - Es Kitchen Web Admin (E03):
+    - Overview:
+      - Structure: frontend/es-kitchen-web-admin/overview/structure.md
+      - Patterns: frontend/es-kitchen-web-admin/overview/patterns.md
+  - Es Kitchen Web Company (E02):
+    - Overview:
+      - Structure: frontend/es-kitchen-web-company/overview/structure.md
+      - Patterns: frontend/es-kitchen-web-company/overview/patterns.md
+
+- Mobile:
+  - Es Kitchen Payment App (E01):
+    - Overview:
+      - Structure: mobile/es-kitchen-payment-app/overview/structure.md
+
+- Epics:
+  - E03 — System Admin:
+    - Admin Account Management:
+      - API Design: epics/E03/details/admin-account-management/es-kitchen-api/DESIGN.md
+      - Web Admin Design: epics/E03/details/admin-account-management/es-kitchen-web-admin/DESIGN.md
+  - E04 — Supplier:
+    - Supplier Authentication:
+      - API Design: epics/E04/details/supplier-authentication/es-kitchen-api/DESIGN.md
+      - Web Supplier Design: epics/E04/details/supplier-authentication/es-kitchen-web-supplier/DESIGN.md
+    - Order List:
+      - Specification: epics/E04/details/order-list/SPEC.md
+      - API Design: epics/E04/details/order-list/es-kitchen-api/DESIGN.md
+      - Web Supplier Design: epics/E04/details/order-list/es-kitchen-web-supplier/DESIGN.md
+      - Tasks:
+        - Task 1-1: epics/E04/details/order-list/es-kitchen-api/tasks/task-1-1.md
+        - Task 2-1: epics/E04/details/order-list/es-kitchen-api/tasks/task-2-1.md
+        - Task 2-2: epics/E04/details/order-list/es-kitchen-api/tasks/task-2-2.md
+  - E05 — Contract & Delivery:
+    - Contract Delivery Authentication:
+      - API Design: epics/E05/details/contract-delivery-authentication/es-kitchen-api/DESIGN.md
+  - E06 — Driver:
+    - Driver Authentication:
+      - API Design: epics/E06/details/driver-authentication/es-kitchen-api/DESIGN.md
+
+- Features:
+  - Maintain Management:
+    - API Design: features/maintain-management/es-kitchen-api/DESIGN.md
+    - Mobile Design: features/maintain-management/es-kitchen-payment-app/DESIGN.md
+    - Web Admin Design: features/maintain-management/es-kitchen-web-admin/DESIGN.md
+  - Version Management:
+    - API Design: features/version-management/es-kitchen-api/DESIGN.md
+    - Mobile Design: features/version-management/es-kitchen-payment-app/DESIGN.md
+    - Web Admin Design: features/version-management/es-kitchen-web-admin/DESIGN.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - nl2br
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - tables

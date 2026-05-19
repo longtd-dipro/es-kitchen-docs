@@ -1,0 +1,5013 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../erd/">
+      
+      
+        <link rel="next" href="../patterns/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>API Catalog - ESKITCHEN Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#es-kitchen-api-api-catalog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="ESKITCHEN Documentation" class="md-header__button md-logo" aria-label="ESKITCHEN Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ESKITCHEN Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              API Catalog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../structure/" class="md-tabs__link">
+          
+  
+  
+  Backend
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../frontend/es-kitchen-web-admin/overview/structure/" class="md-tabs__link">
+          
+  
+  
+  Frontend
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../mobile/es-kitchen-payment-app/overview/structure/" class="md-tabs__link">
+          
+  
+  
+  Mobile
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../epics/E03/details/admin-account-management/es-kitchen-api/DESIGN/" class="md-tabs__link">
+          
+  
+  
+  Epics
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../features/maintain-management/es-kitchen-api/DESIGN/" class="md-tabs__link">
+          
+  
+  
+  Features
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="ESKITCHEN Documentation" class="md-nav__button md-logo" aria-label="ESKITCHEN Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ESKITCHEN Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Backend
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Es Kitchen API
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Es Kitchen API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../erd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ERD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Catalog
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kien-truc-3-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kiến trúc 3 module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-admin-e03-system-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: Admin (E03 — System Admin)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: Admin (E03 — System Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-adminauth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /admin/auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#companies-admincompanies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Companies /admin/companies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contracts-admincontracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contracts /admin/contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounts-adminaccounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accounts /admin/accounts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#products-adminproducts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Products /admin/products
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-adminorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /admin/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sales-analytics-adminsales-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sales Analytics /admin/sales-analytics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dashboard-admindashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard /admin/dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications-adminnotifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notifications /admin/notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories-admincategories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Categories /admin/categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-adminpayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /admin/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menus-adminmenus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus /admin/menus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favorites-ranking-adminfavorites-ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorites Ranking /admin/favorites-ranking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-admin-company-e02-company-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: Admin-Company (E02 — Company Admin)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: Admin-Company (E02 — Company Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-admin-companyauth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /admin-company/auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users-admin-companyusers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Users /admin-company/users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-admin-companyorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /admin-company/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-admin-companycompany" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company /admin-company/company
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-admin-companypayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /admin-company/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-user-e01-mobile-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: User (E01 — Mobile App)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: User (E01 — Mobile App)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-authuser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /auth/user
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-profile-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Profile /user
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-userorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /user/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cart-usercart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cart /user/cart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menu-usermenu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menu /user/menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favorites-userfavorites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorites /user/favorites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications-usernotifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notifications /user/notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refunds-userrefunds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refunds /user/refunds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-userpayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /user/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allergens-userallergens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allergens /user/allergens
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories-usercategories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Categories /user/categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-preferences-userpreferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Preferences /user/preferences
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#legal-userlegal-public-khong-can-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legal /user/legal — Public (không cần auth)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-version-appversion-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        App Version /app/version — Public
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contact-contact-optional-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contact /contact — Optional auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elepay-webhooks-userelepay-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elepay Webhooks /user/elepay — Internal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quy-tac-at-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quy tắc đặt endpoint
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontend
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Frontend
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Es Kitchen Web Admin (E03)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Es Kitchen Web Admin (E03)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../frontend/es-kitchen-web-admin/overview/structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../frontend/es-kitchen-web-admin/overview/patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Es Kitchen Web Company (E02)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Es Kitchen Web Company (E02)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../frontend/es-kitchen-web-company/overview/structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../frontend/es-kitchen-web-company/overview/patterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mobile
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Es Kitchen Payment App (E01)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Es Kitchen Payment App (E01)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_1" id="__nav_4_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../mobile/es-kitchen-payment-app/overview/structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Epics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E03 — System Admin
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    E03 — System Admin
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_1" id="__nav_5_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Admin Account Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Admin Account Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E03/details/admin-account-management/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E03/details/admin-account-management/es-kitchen-web-admin/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Admin Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E04 — Supplier
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    E04 — Supplier
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_1" id="__nav_5_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supplier Authentication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Supplier Authentication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/supplier-authentication/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/supplier-authentication/es-kitchen-web-supplier/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Supplier Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Order List
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Order List
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/SPEC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/es-kitchen-web-supplier/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Supplier Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2_4" id="__nav_5_2_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tasks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/es-kitchen-api/tasks/task-1-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task 1-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/es-kitchen-api/tasks/task-2-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task 2-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E04/details/order-list/es-kitchen-api/tasks/task-2-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task 2-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E05 — Contract & Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    E05 — Contract & Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3_1" id="__nav_5_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contract Delivery Authentication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Contract Delivery Authentication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E05/details/contract-delivery-authentication/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E06 — Driver
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    E06 — Driver
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4_1" id="__nav_5_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver Authentication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Driver Authentication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../epics/E06/details/driver-authentication/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maintain Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Maintain Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/maintain-management/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/maintain-management/es-kitchen-payment-app/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/maintain-management/es-kitchen-web-admin/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Admin Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Version Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/version-management/es-kitchen-api/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/version-management/es-kitchen-payment-app/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../features/version-management/es-kitchen-web-admin/DESIGN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web Admin Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kien-truc-3-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kiến trúc 3 module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-admin-e03-system-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: Admin (E03 — System Admin)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: Admin (E03 — System Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-adminauth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /admin/auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#companies-admincompanies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Companies /admin/companies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contracts-admincontracts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contracts /admin/contracts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounts-adminaccounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accounts /admin/accounts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#products-adminproducts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Products /admin/products
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-adminorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /admin/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sales-analytics-adminsales-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sales Analytics /admin/sales-analytics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dashboard-admindashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard /admin/dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications-adminnotifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notifications /admin/notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories-admincategories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Categories /admin/categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-adminpayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /admin/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menus-adminmenus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus /admin/menus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favorites-ranking-adminfavorites-ranking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorites Ranking /admin/favorites-ranking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-admin-company-e02-company-admin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: Admin-Company (E02 — Company Admin)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: Admin-Company (E02 — Company Admin)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-admin-companyauth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /admin-company/auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users-admin-companyusers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Users /admin-company/users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-admin-companyorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /admin-company/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-admin-companycompany" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company /admin-company/company
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-admin-companypayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /admin-company/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-user-e01-mobile-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module: User (E01 — Mobile App)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Module: User (E01 — Mobile App)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auth-authuser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auth /auth/user
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-profile-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Profile /user
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orders-userorders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orders /user/orders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cart-usercart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cart /user/cart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menu-usermenu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menu /user/menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favorites-userfavorites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Favorites /user/favorites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications-usernotifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notifications /user/notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refunds-userrefunds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refunds /user/refunds
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#payment-methods-userpayment-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Payment Methods /user/payment-methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allergens-userallergens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allergens /user/allergens
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories-usercategories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Categories /user/categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-preferences-userpreferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Preferences /user/preferences
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#legal-userlegal-public-khong-can-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legal /user/legal — Public (không cần auth)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-version-appversion-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        App Version /app/version — Public
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contact-contact-optional-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contact /contact — Optional auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elepay-webhooks-userelepay-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elepay Webhooks /user/elepay — Internal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quy-tac-at-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quy tắc đặt endpoint
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="es-kitchen-api-api-catalog">es-kitchen-api — API Catalog</h1>
+<blockquote>
+<p>Tổng hợp toàn bộ REST endpoints từ source code thực tế.<br />
+Cập nhật khi thêm/đổi endpoint — đây là nguồn sự thật duy nhất cho FE/Mobile.</p>
+</blockquote>
+<hr />
+<h2 id="kien-truc-3-module">Kiến trúc 3 module</h2>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Prefix</th>
+<th>Guard</th>
+<th>Client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>admin</code></td>
+<td><code>/admin/...</code></td>
+<td><code>AdminGuard</code> (JWT admin)</td>
+<td><code>es-kitchen-web-admin</code> (E03)</td>
+</tr>
+<tr>
+<td><code>admin-company</code></td>
+<td><code>/admin-company/...</code></td>
+<td><code>AdminCompanyGuard</code> (JWT company admin)</td>
+<td><code>es-kitchen-web-company</code> (E02)</td>
+</tr>
+<tr>
+<td><code>user</code></td>
+<td><code>user/...</code> hoặc <code>/auth/user/...</code></td>
+<td><code>JwtAuthGuard</code> (JWT user)</td>
+<td><code>es-kitchen-payment-app</code> (E01)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>⚠️ <code>admin</code> và <code>admin-company</code> dùng prefix khác nhau hoàn toàn — không copy endpoint giữa hai module.</p>
+</blockquote>
+<hr />
+<h2 id="module-admin-e03-system-admin">Module: Admin (E03 — System Admin)</h2>
+<h3 id="auth-adminauth">Auth <code>/admin/auth</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/admin/auth</code></td>
+<td>Login — trả về access/refresh token</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/auth/forgot-password/request</code></td>
+<td>Gửi OTP reset password</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/auth/forgot-password/verify-otp</code></td>
+<td>Xác thực OTP</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/auth/forgot-password/reset-password</code></td>
+<td>Đặt lại mật khẩu</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/auth/logout</code></td>
+<td>Logout — xóa refresh token</td>
+</tr>
+</tbody>
+</table>
+<h3 id="companies-admincompanies">Companies <code>/admin/companies</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies</code></td>
+<td>Danh sách companies (phân trang, filter)</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/companies</code></td>
+<td>Tạo company mới</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/companies/bulk-issue-accounts</code></td>
+<td>Phát hành tài khoản hàng loạt</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/companies/export-qr</code></td>
+<td>Export QR code cho company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies/import</code></td>
+<td>(CSV import flow — xem bên dưới)</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/companies/import</code></td>
+<td>Import company từ CSV</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies/:id/basic-info</code></td>
+<td>Thông tin cơ bản company</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/companies/:id/basic-info</code></td>
+<td>Cập nhật thông tin cơ bản</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies/:id/contracts</code></td>
+<td>Danh sách contract của company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies/:id/contacts</code></td>
+<td>Thông tin liên hệ company</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/companies/:id/contacts</code></td>
+<td>Cập nhật thông tin liên hệ</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/companies/:id/history</code></td>
+<td>Lịch sử thay đổi company</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin/companies/:id</code></td>
+<td>Xóa company (soft delete)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="contracts-admincontracts">Contracts <code>/admin/contracts</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/contracts</code></td>
+<td>Danh sách contracts (phân trang, filter)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/contracts/:id</code></td>
+<td>Chi tiết contract</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/contracts/:id</code></td>
+<td>Cập nhật contract</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/contracts/:id/payment</code></td>
+<td>Thông tin thanh toán contract</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/contracts/:id/payment</code></td>
+<td>Cập nhật thanh toán contract</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/contracts/:id/equipments</code></td>
+<td>Thiết bị trong contract</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/contracts/:id/equipments</code></td>
+<td>Cập nhật thiết bị</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/contracts/:id/history</code></td>
+<td>Lịch sử thay đổi contract</td>
+</tr>
+</tbody>
+</table>
+<h3 id="accounts-adminaccounts">Accounts <code>/admin/accounts</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/accounts/me</code></td>
+<td>Profile admin đang đăng nhập</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/accounts</code></td>
+<td>Danh sách operation accounts</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/accounts</code></td>
+<td>Tạo operation account mới</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/accounts/:id</code></td>
+<td>Chi tiết account</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/accounts/:id</code></td>
+<td>Cập nhật account</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin/accounts/:id</code></td>
+<td>Xóa account (soft delete)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/accounts/:userId/purchase-history</code></td>
+<td>Lịch sử mua hàng của user</td>
+</tr>
+</tbody>
+</table>
+<h3 id="products-adminproducts">Products <code>/admin/products</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/products</code></td>
+<td>Danh sách sản phẩm (phân trang, filter)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/products/suppliers</code></td>
+<td>Danh sách suppliers</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/products/:id</code></td>
+<td>Chi tiết sản phẩm</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/products/:id</code></td>
+<td>Cập nhật sản phẩm</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin/products/:id</code></td>
+<td>Xóa sản phẩm (soft delete)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/products/:id/history</code></td>
+<td>Lịch sử thay đổi sản phẩm</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/products/import</code></td>
+<td>Import sản phẩm từ CSV</td>
+</tr>
+</tbody>
+</table>
+<h3 id="orders-adminorders">Orders <code>/admin/orders</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/orders</code></td>
+<td>Danh sách đơn hàng (phân trang, filter)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/orders/:orderNumber</code></td>
+<td>Chi tiết đơn hàng</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/orders/:id/refund</code></td>
+<td>Hoàn tiền đơn hàng</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sales-analytics-adminsales-analytics">Sales Analytics <code>/admin/sales-analytics</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/sales-analytics/company</code></td>
+<td>Phân tích doanh thu theo company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/sales-analytics/company/export-csv</code></td>
+<td>Export CSV phân tích theo company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/sales-analytics/product</code></td>
+<td>Phân tích doanh thu theo sản phẩm</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/sales-analytics/product/export-csv</code></td>
+<td>Export CSV phân tích theo sản phẩm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dashboard-admindashboard">Dashboard <code>/admin/dashboard</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/dashboard/monthly-sales</code></td>
+<td>Doanh thu theo tháng</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/dashboard/favorites-vs-sales</code></td>
+<td>So sánh yêu thích vs doanh thu</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/dashboard/sales-by-payment-method</code></td>
+<td>Doanh thu theo phương thức thanh toán</td>
+</tr>
+</tbody>
+</table>
+<h3 id="notifications-adminnotifications">Notifications <code>/admin/notifications</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/admin/notifications/test-push</code></td>
+<td>Gửi push notification test</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/notifications/publish-menu</code></td>
+<td>Publish menu và gửi notification</td>
+</tr>
+</tbody>
+</table>
+<h3 id="categories-admincategories">Categories <code>/admin/categories</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/categories</code></td>
+<td>Danh sách categories</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/categories</code></td>
+<td>Tạo category</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/categories/:id</code></td>
+<td>Cập nhật category</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin/categories/:id</code></td>
+<td>Xóa category</td>
+</tr>
+</tbody>
+</table>
+<h3 id="payment-methods-adminpayment-methods">Payment Methods <code>/admin/payment-methods</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/payment-methods</code></td>
+<td>Danh sách phương thức thanh toán</td>
+</tr>
+</tbody>
+</table>
+<h3 id="menus-adminmenus">Menus <code>/admin/menus</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/menus</code></td>
+<td>Danh sách menus (filter theo year_month, type, status)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/menus/:id</code></td>
+<td>Chi tiết menu</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/admin/menus/:id</code></td>
+<td>Cập nhật menu</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin/menus/:id</code></td>
+<td>Xóa menu (soft delete)</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/menus/import/preview</code></td>
+<td>Preview CSV import (multipart/form-data, max 10MB)</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin/menus/import/confirm</code></td>
+<td>Xác nhận import menu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="favorites-ranking-adminfavorites-ranking">Favorites Ranking <code>/admin/favorites-ranking</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin/favorites-ranking/latest-months</code></td>
+<td>Lấy danh sách tháng gần nhất có dữ liệu favorite</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/favorites-ranking</code></td>
+<td>Ranking sản phẩm theo lượt yêu thích (phân trang)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin/favorites-ranking/export</code></td>
+<td>Export CSV ranking (toàn bộ, không phân trang)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="module-admin-company-e02-company-admin">Module: Admin-Company (E02 — Company Admin)</h2>
+<h3 id="auth-admin-companyauth">Auth <code>/admin-company/auth</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/auth/login</code></td>
+<td>Login company admin</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/auth/forgot-password/request</code></td>
+<td>Gửi OTP reset password</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/auth/forgot-password/verify-otp</code></td>
+<td>Xác thực OTP</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/auth/forgot-password/confirm</code></td>
+<td>Đặt lại mật khẩu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="users-admin-companyusers">Users <code>/admin-company/users</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/users/linked</code></td>
+<td>Danh sách users đã link với company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/users/linked/:userCode</code></td>
+<td>Chi tiết user theo userCode</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/admin-company/users/linked/:userCode</code></td>
+<td>Unlink user khỏi company</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/users/linked/:userCode/restrict</code></td>
+<td>Hạn chế user</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/admin-company/users/linked/:userCode/unrestrict</code></td>
+<td>Gỡ hạn chế user</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/users/linked/:userCode/purchase-history</code></td>
+<td>Lịch sử mua hàng của user</td>
+</tr>
+</tbody>
+</table>
+<h3 id="orders-admin-companyorders">Orders <code>/admin-company/orders</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/orders</code></td>
+<td>Danh sách đơn hàng của company</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/orders/export</code></td>
+<td>Export CSV đơn hàng</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/orders/summary</code></td>
+<td>Tổng hợp doanh thu</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/orders/:orderNumber</code></td>
+<td>Chi tiết đơn hàng</td>
+</tr>
+</tbody>
+</table>
+<h3 id="company-admin-companycompany">Company <code>/admin-company/company</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/company/me</code></td>
+<td>Thông tin company đang quản lý</td>
+</tr>
+</tbody>
+</table>
+<h3 id="payment-methods-admin-companypayment-methods">Payment Methods <code>/admin-company/payment-methods</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/admin-company/payment-methods</code></td>
+<td>Danh sách phương thức thanh toán</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="module-user-e01-mobile-app">Module: User (E01 — Mobile App)</h2>
+<h3 id="auth-authuser">Auth <code>/auth/user</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/login</code></td>
+<td>Login</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/logout</code></td>
+<td>Logout</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/register</code></td>
+<td>Đăng ký tài khoản</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/verify-otp</code></td>
+<td>Xác thực OTP đăng ký</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/resend-otp</code></td>
+<td>Gửi lại OTP</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/forgot-password</code></td>
+<td>Yêu cầu reset password</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/forgot-password/verify-otp</code></td>
+<td>Xác thực OTP reset password</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/auth/user/reset-password</code></td>
+<td>Đặt lại mật khẩu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="user-profile-user">User Profile <code>/user</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Guard</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/me</code></td>
+<td>JwtAuthGuard</td>
+<td>Profile user hiện tại</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/me</code></td>
+<td>JwtAuthGuard</td>
+<td>Cập nhật profile</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/user/me</code></td>
+<td>JwtAuthGuard</td>
+<td>Xóa tài khoản (soft delete)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="orders-userorders">Orders <code>/user/orders</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/user/orders/checkout</code></td>
+<td>Đặt hàng — tạo order + payment</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/orders/:orderId/cancel</code></td>
+<td>Hủy đơn hàng</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/orders/:orderId/retry-payment</code></td>
+<td>Thử thanh toán lại</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/orders/validate-company</code></td>
+<td>Kiểm tra company hợp lệ</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/orders/check-limit</code></td>
+<td>Kiểm tra giới hạn đặt hàng tháng</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/orders/history</code></td>
+<td>Lịch sử đơn hàng</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/orders</code></td>
+<td>Danh sách đơn hàng đang chờ</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/orders/:id</code></td>
+<td>Chi tiết đơn hàng</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cart-usercart">Cart <code>/user/cart</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/cart</code></td>
+<td>Lấy giỏ hàng</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/user/cart</code></td>
+<td>Xóa toàn bộ giỏ hàng</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/cart/items</code></td>
+<td>Thêm sản phẩm vào giỏ</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/cart/items/:id</code></td>
+<td>Cập nhật số lượng sản phẩm</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/user/cart/items/:id</code></td>
+<td>Xóa sản phẩm khỏi giỏ</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/cart/reset-status</code></td>
+<td>Kiểm tra trạng thái reset giỏ hàng</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/cart/reset-ack</code></td>
+<td>Xác nhận đã thấy thông báo reset</td>
+</tr>
+</tbody>
+</table>
+<h3 id="menu-usermenu">Menu <code>/user/menu</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/menu/products</code></td>
+<td>Danh sách sản phẩm trong menu hiện tại</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/menu/products/:id</code></td>
+<td>Chi tiết sản phẩm theo id</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/menu/products/jan/:janCode</code></td>
+<td>Tìm sản phẩm theo JAN code</td>
+</tr>
+</tbody>
+</table>
+<h3 id="favorites-userfavorites">Favorites <code>/user/favorites</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/favorites</code></td>
+<td>Danh sách sản phẩm yêu thích</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/favorites/:productId</code></td>
+<td>Toggle yêu thích (thêm nếu chưa có, xóa nếu đã có)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="notifications-usernotifications">Notifications <code>/user/notifications</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/user/notifications/device-token</code></td>
+<td>Đăng ký FCM device token</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/notifications</code></td>
+<td>Danh sách notifications (phân trang)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/notifications/unread-count</code></td>
+<td>Số lượng notification chưa đọc</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/notifications/:id</code></td>
+<td>Chi tiết notification</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/notifications/:id/read</code></td>
+<td>Đánh dấu đã đọc</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/notifications/read-all</code></td>
+<td>Đánh dấu tất cả đã đọc</td>
+</tr>
+</tbody>
+</table>
+<h3 id="refunds-userrefunds">Refunds <code>/user/refunds</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/user/refunds</code></td>
+<td>Yêu cầu hoàn tiền</td>
+</tr>
+</tbody>
+</table>
+<h3 id="payment-methods-userpayment-methods">Payment Methods <code>/user/payment-methods</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/payment-methods</code></td>
+<td>Danh sách phương thức thanh toán (filter CASH theo company)</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/payment-methods/my-default</code></td>
+<td>Phương thức thanh toán mặc định của user</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td><code>/user/payment-methods/my-default</code></td>
+<td>Đặt phương thức thanh toán mặc định</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/payment-methods/credit-cards</code></td>
+<td>Danh sách thẻ tín dụng đã lưu (Elepay)</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/payment-methods/credit-card</code></td>
+<td>Thêm thẻ tín dụng (tạo Elepay source)</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/user/payment-methods/credit-cards/:sourceId</code></td>
+<td>Đặt thẻ tín dụng mặc định</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/user/payment-methods/credit-cards/:sourceId</code></td>
+<td>Xóa thẻ tín dụng</td>
+</tr>
+</tbody>
+</table>
+<h3 id="allergens-userallergens">Allergens <code>/user/allergens</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/allergens</code></td>
+<td>Danh sách allergens (sắp xếp theo sort ASC)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="categories-usercategories">Categories <code>/user/categories</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/categories</code></td>
+<td>Danh sách categories</td>
+</tr>
+</tbody>
+</table>
+<h3 id="user-preferences-userpreferences">User Preferences <code>/user/preferences</code></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/preferences/cart-popup</code></td>
+<td>Kiểm tra có hiện popup xác nhận checkout không</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/preferences/cart-popup/hide</code></td>
+<td>Ẩn popup trong 1 tháng</td>
+</tr>
+</tbody>
+</table>
+<h3 id="legal-userlegal-public-khong-can-auth">Legal <code>/user/legal</code> — Public (không cần auth)</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/user/legal/terms</code></td>
+<td>Điều khoản dịch vụ hiện hành</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/legal/privacy</code></td>
+<td>Chính sách bảo mật hiện hành</td>
+</tr>
+</tbody>
+</table>
+<h3 id="app-version-appversion-public">App Version <code>/app/version</code> — Public</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/app/version</code></td>
+<td>Kiểm tra phiên bản app (force/recommended update)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="contact-contact-optional-auth">Contact <code>/contact</code> — Optional auth</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Guard</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/contact</code></td>
+<td>OptionalJwtAuthGuard</td>
+<td>Gửi yêu cầu liên hệ (auth tùy chọn)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="elepay-webhooks-userelepay-internal">Elepay Webhooks <code>/user/elepay</code> — Internal</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td><code>/user/elepay/webhook</code></td>
+<td>Xử lý charge.<em> và refund.</em> events từ Elepay</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/user/elepay/verification-credit-card</code></td>
+<td>Xử lý source.activated / source.inactivated</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/elepay/verify-easy-code-payment</code></td>
+<td>Redirect handler sau khi thanh toán QR</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/user/elepay/public-key</code></td>
+<td>Lấy Elepay public key</td>
+</tr>
+</tbody>
+</table>
+<h3 id="health-check">Health Check</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Path</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/health</code></td>
+<td>Health check endpoint</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quy-tac-at-endpoint">Quy tắc đặt endpoint</h2>
+<ul>
+<li>Admin endpoints: <code>GET /admin/&lt;resource&gt;s</code> → list, <code>GET /admin/&lt;resource&gt;s/:id</code> → detail</li>
+<li>Không dùng <code>/admin/...</code> cho Company Admin — phải dùng <code>/admin-company/...</code></li>
+<li>User endpoints: prefix <code>user/</code> cho tất cả authenticated user routes</li>
+<li>Auth routes nằm ngoài prefix module: <code>/auth/user/...</code></li>
+<li>Webhook routes không expose trong Swagger (<code>@ApiExcludeEndpoint()</code>)</li>
+</ul>
+<hr />
+<blockquote>
+<p>Cập nhật file này mỗi khi thêm/đổi/xóa controller method.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
