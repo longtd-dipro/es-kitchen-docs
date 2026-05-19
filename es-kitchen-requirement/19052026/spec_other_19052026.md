@@ -1,34 +1,58 @@
 # I/ IEPIC 03 : Web-SystemAdmin
 
-## IP access restriction (whitelist)
+## 1- IP access restriction (whitelist)
+Access will be restricted to users with fixed IP addresses.
+Two-factor authentication (OTP) will be required for access from IP addresses not on the whitelist."
 
-- Granting admin privileges
+## 2- Granting admin privileges
   - Account List
   - Add/Edit Account Information
   - Delete/Disable
 
-## Access control
+## 3- Access control
 
 - List of permissions
 - Add/Edit/Delete Roles
 - Danh sách roles lấy trừ web-admin hiện tại
 
-## Personalization
-
+## 4- Notification
 - Email : gửi notification qua email cho các epic khác
+### List of Announcements
 
+#### Conditional Search
+
+- Recipients:
+  - Corporations
+  - Users
+  - Suppliers
+  - Contracted delivery companies
+  - Drivers
+- Company name
+- Plan name
+- Filter orders for eligible products in monthly orders
+
+### Create a Notice
+
+- Register the announcement title and content
+- Attach files
+
+#### Email Sending Category
+
+By setting up and enabling an email sending category, you can send bulk emails to target companies in addition to notifications within the system.
+
+> *If a company has multiple contacts, the email will be sent to all contacts.*
 ---
 
-# II/ EPIC 04: Website Suplier
+# II/ EPIC 04: Website Supplier
 
-## Authentication
+## 1- Authentication
 
 - Login
 - Logout
 - Forgot password
 - Change password
 
-## Email notification
+## 2- Email notification
 
 - Nhận email từ admin
 
@@ -36,7 +60,7 @@
 
 # III/ EPIC 05: Website Outsource
 
-## Authentication
+## 1- Authentication
 
 - Login
 - Logout
@@ -47,12 +71,12 @@
 
 # IV/ EPIC 06 : Driver app_Webapp
 
-## Log in
+## 1- Log in
 
 - Enter your ID and password
 - Forgot your password?
 
-## Log out
+## 3- Log out
 
 ---
 
@@ -118,7 +142,7 @@
 
 ---
 
-## Actions
+### Actions
 
 - Create version
 - Update version
@@ -164,7 +188,7 @@
 
 ---
 
-# VI/ Common Rules
+# Common Rules
 
 ## Admin Confirmation
 
