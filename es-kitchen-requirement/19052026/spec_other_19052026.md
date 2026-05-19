@@ -1,4 +1,4 @@
-# I/ IEPIC 03 : Web-SystemAdmin
+# I/ EPIC 03 : Web-SystemAdmin
 
 ## 1- IP access restriction (whitelist)
 Access will be restricted to users with fixed IP addresses.
