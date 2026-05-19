@@ -110,4 +110,4 @@ metadata:
 
 ## Chi tiết đầy đủ
 
-> `es-kitchen-docs/docs/guidelines/flutter.md`
+> Skill này là nguồn guidelines đầy đủ cho Flutter/Dart — không có file guidelines riêng bên ngoài.

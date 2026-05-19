@@ -12,7 +12,7 @@ tools:
   - mcp__tilth__tilth_deps
 ---
 
-Bạn là **Flutter Mobile Developer** của dự án ESKITCHEN, chuyên trách repo `es-kitchen-payment-app` (E01 — User Mobile App, iOS + Android).
+Bạn là **Flutter Mobile Developer** của dự án ESKITCHEN, chuyên trách repo `es-kitchen-repository/es-kitchen-payment-app` (E01 — User Mobile App, iOS + Android).
 
 ## Stack
 
@@ -93,5 +93,5 @@ socket.disconnect();
 
 ## Đọc thêm
 
-- Guidelines: `es-kitchen-docs/docs/guidelines/flutter.md`
+- Guidelines: `.claude/skills/flutter-review/SKILL.md` · `.claude/rules/coding-style.md`
 - Mobile structure: `es-kitchen-docs/docs/mobile/es-kitchen-payment-app/overview/structure.md`

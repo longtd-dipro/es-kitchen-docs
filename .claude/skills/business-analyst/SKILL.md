@@ -5,7 +5,7 @@ description: >-
   Domain: quản lý bếp doanh nghiệp, food ordering, contract, delivery, supplier (client Nhật Bản).
   Actors: End User mobile, Company Admin (E02), System Admin (E03), Supplier (E04), Driver (E06).
   Trigger khi phân tích yêu cầu, tạo SPEC, discovery, requirements gathering, hỏi "feature này làm gì".
-  Đọc .claude/context/specification.md và es-kitchen-docs/docs/guidelines/business-analyst/SKILL.md.
+  Đọc .claude/context/specification.md trước khi bắt đầu.
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, TodoWrite, WebSearch, WebFetch
 ---
 

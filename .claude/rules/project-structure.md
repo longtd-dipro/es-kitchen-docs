@@ -1,15 +1,18 @@
 # Project Structure — ESKITCHEN
 
-## 4 Repos (Red Line Rules)
+## 5 Repos (Red Line Rules)
+
+Tất cả source code nằm trong `es-kitchen-repository/`.
 
 | Repo | Epic | Trách nhiệm | Không được làm |
 |---|---|---|---|
-| `es-kitchen-api` | — | API, business logic, database, auth, integrations | Implement UI logic |
-| `es-kitchen-payment-app` | E01 | User mobile app — order, menu, delivery, payment | Gọi BE logic trực tiếp không qua API |
-| `es-kitchen-web-admin` | E03 | System Admin — quản trị toàn hệ thống (160 functions) | Implement business logic của E02 |
-| `es-kitchen-web-company` | E02 | Company Admin — quản lý company/contract/order (58 functions) | Implement business logic của E03 |
+| `es-kitchen-repository/es-kitchen-api` | — | API, business logic, database, auth, integrations | Implement UI logic |
+| `es-kitchen-repository/es-kitchen-payment-app` | E01 | User mobile app — order, menu, delivery, payment | Gọi BE logic trực tiếp không qua API |
+| `es-kitchen-repository/es-kitchen-web-admin` | E03 | System Admin — quản trị toàn hệ thống (160 functions) | Implement business logic của E02/E04 |
+| `es-kitchen-repository/es-kitchen-web-company` | E02 | Company Admin — quản lý company/contract/order (58 functions) | Implement business logic của E03/E04 |
+| `es-kitchen-repository/es-kitchen-web-supplier` | E04 | Supplier Web — quản lý menu, nhận đơn, account | Implement business logic của E02/E03 |
 
-> **E02 ≠ E03** — lỗi phổ biến nhất. Luôn xác nhận repo trước khi code.
+> **E02 ≠ E03 ≠ E04** — lỗi phổ biến nhất. Luôn xác nhận repo trước khi code.
 
 ## NestJS Module Structure
 

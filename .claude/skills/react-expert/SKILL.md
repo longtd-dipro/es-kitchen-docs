@@ -7,8 +7,7 @@ description: >-
   Cũng dùng khi cần authoritative usage examples, caveats, hoặc errors cho React feature.
 ---
 
-> **ESKITCHEN Context:** 2 web repos dùng CÙNG stack. Xem chi tiết tại
-> `es-kitchen-docs/docs/guidelines/react.md`
+> **ESKITCHEN Context:** 2 web repos dùng CÙNG stack. Stack constraints: `.claude/rules/stack-constraints.md` · Coding style: `.claude/rules/coding-style.md`
 
 # React Expert Research Skill
 

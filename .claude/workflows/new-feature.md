@@ -12,10 +12,10 @@ User requirement
       ▼ [ba-agent]
    SPEC.md  ←── /create-spec <feature>
       │
-      ▼ [Claude Code — Tech Lead role]
+      ▼ [techlead-design-agent]
 DESIGN.md per repo  ←── /create-design <SPEC.md>
       │
-      ▼ [Claude Code — Tech Lead role]
+      ▼ [techlead-tasks-agent]
 tasks/task-*.md  ←── /create-tasks <feature-folder/>
       │
       ▼ [pm-agent]
@@ -23,8 +23,12 @@ tasks/task-*.md  ←── /create-tasks <feature-folder/>
       │
       ▼ CONTRACT LOCK ← phải confirm trước bước này
       │
-      ▼ [backend-agent / frontend-agent / mobile-agent]
-  Working code  ←── implement task-X-Y
+      ┌──────────┬──────────────┐
+      │          │              │
+[backend-agent] [frontend-agent] [mobile-agent]
+  task-1,2-x    task-3-x (FE)   task-3-x (Mobile)
+      │          │              │
+      └──────────┴──────────────┘
       │
       ▼ [qa-agent]
   QA Report  ←── verify AC + non-regression
@@ -53,7 +57,7 @@ tasks/task-*.md  ←── /create-tasks <feature-folder/>
 
 ## Bước 2 — Thiết kế kỹ thuật (Tech Lead Design)
 
-**Agent:** Claude Code (Tech Lead role)
+**Agent:** `techlead-design-agent`
 **Command:** `/create-design <path/to/SPEC.md>`
 **Context cần đọc:**
 - `.claude/context/technical.md` — tech stack, known bugs
@@ -71,7 +75,7 @@ tilth_deps(path: "<file sẽ thay đổi>")
 
 ## Bước 3 — Phân rã tasks (Tech Lead Tasks)
 
-**Agent:** Claude Code (Tech Lead role)
+**Agent:** `techlead-tasks-agent`
 **Command:** `/create-tasks <path/to/feature-folder/>`
 **Phase numbering global:**
 

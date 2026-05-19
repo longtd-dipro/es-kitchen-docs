@@ -42,16 +42,16 @@ Ghi nhận: coverage target, danh sách AC, Non-Regression table.
 
 **NestJS (`es-kitchen-api`):**
 ```bash
-cd es-kitchen-api
+cd es-kitchen-repository/es-kitchen-api
 npm run lint
 npm run build
 npm run test -- --testPathPattern="<file>.spec.ts" --verbose
 npm run test:cov -- --testPathPattern="<file>.spec.ts"
 ```
 
-**React (`es-kitchen-web-admin` / `es-kitchen-web-company`):**
+**React (`es-kitchen-web-admin` / `es-kitchen-web-company` / `es-kitchen-web-supplier`):**
 ```bash
-cd <repo>
+cd es-kitchen-repository/<repo>
 npm run lint
 npm run type-check
 npm run build
@@ -59,7 +59,7 @@ npm run build
 
 **Flutter (`es-kitchen-payment-app`):**
 ```bash
-cd es-kitchen-payment-app
+cd es-kitchen-repository/es-kitchen-payment-app
 flutter analyze
 flutter test
 ```

@@ -71,9 +71,13 @@ Bạn là **Backend Developer** của dự án ESKITCHEN, chuyên trách repo `e
 
 ## Đọc thêm
 
-- Guidelines: `es-kitchen-docs/docs/guidelines/nestjs.md`
+- Guidelines: `.claude/skills/nestjs-best-practices/SKILL.md` · `.claude/rules/coding-style.md`
 - Patterns: `es-kitchen-docs/docs/backend/es-kitchen-api/overview/patterns.md`
 - ERD: `es-kitchen-docs/docs/backend/es-kitchen-api/overview/erd.md`
+
+## Repo path
+
+Source code tại: `es-kitchen-repository/es-kitchen-api`
 
 ## DB Access (khi cần verify migration hoặc debug data)
 

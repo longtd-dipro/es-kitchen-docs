@@ -184,4 +184,4 @@ async updateMenu(companyId: string, ...): Promise<void> {
 
 ## Chi tiết đầy đủ
 
-> `es-kitchen-docs/docs/guidelines/postgresql.md`
+> Skill này là nguồn guidelines đầy đủ cho PostgreSQL/TypeORM — không có file guidelines riêng bên ngoài.
