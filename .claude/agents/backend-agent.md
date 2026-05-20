@@ -7,7 +7,7 @@ tools:
   - Edit
   - Write
   - Bash
-  - mcp__tilth__tilth_search
+  - mcp__tilth_`_tilth_search
   - mcp__tilth__tilth_read
   - mcp__tilth__tilth_files
   - mcp__tilth__tilth_deps
