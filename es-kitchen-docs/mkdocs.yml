@@ -33,6 +33,10 @@ nav:
     - Overview:
       - Structure: frontend/es-kitchen-web-company/overview/structure.md
       - Patterns: frontend/es-kitchen-web-company/overview/patterns.md
+  - Es Kitchen Webapp Driver (E06):
+    - Overview:
+      - Structure: frontend/es-kitchen-webapp-driver/overview/structure.md
+      - Patterns: frontend/es-kitchen-webapp-driver/overview/patterns.md
 
 - Mobile:
   - Es Kitchen Payment App (E01):
